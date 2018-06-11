@@ -19,7 +19,6 @@ ul
 
 li 
 {
-    float: center;
     display: inline-block;
     color: white;
     text-align: center;
@@ -75,28 +74,6 @@ h1
 	text-shadow: 1px 1px 2px #000000;
 }
 
-h2
-{
-	color: limegreen;
-	text-shadow: 1px 1px 2px #000000;
-}
-
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-track {
-    background: lightgray; 
-}
- 
-::-webkit-scrollbar-thumb {
-    background: orange; 
-}
-
-::-webkit-scrollbar-thumb:hover {
-   	background: darkorange; 
-}
-
 .button
 {
 	background-color: orange;
@@ -110,7 +87,6 @@ h2
 	font-size: 26px;
 	font-family: 'Autobus', sans-serif;
 	transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s;
 	box-shadow: 3px 3px 20px black;
 }
 
@@ -140,7 +116,6 @@ h2
 	font-size: 26px;
 	font-family: 'Autobus', sans-serif;
 	transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s;
 	box-shadow: 3px 3px 20px black;
 }
 
@@ -169,7 +144,6 @@ h2
 	font-size: 26px;
 	font-family: 'Autobus', sans-serif;
 	transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s;
 	box-shadow: 3px 3px 20px black;
 }
 
@@ -198,29 +172,14 @@ hr {
 	padding: 0;
 }
 	
-.par1
-{
-	background: URL(bg2.png);
-	color: white;
-	text-shadow: 2px 2px 4px #000000;
-}
 .header
 {
 	background: URL(bg.jpg);
 	color: white;
 }
 
-.h
-{
-	color: #345177;
-}
-
-.hometext
-{
-	color: white;
-}
-
 .img {
+	float: left;
 	margin-left: 200px;
 	margin-right: 70px;
 	margin-bottom: 30px;
@@ -229,6 +188,7 @@ hr {
 }
 
 .img2 {
+	float: right;
 	margin-top: 30px;
 	margin-right: 300px;
 	margin-left: 70px;
@@ -270,17 +230,15 @@ hr {
 	margin-bottom: 50px;
 }
 
-.active {
-	font-weight: bold;
-}
-
 .parts {
+	float: left;
 	margin-left: 200px;
 	margin-right: 50px;
 	box-shadow: 2px 2px 30px black;
 }
 
 .parts2 {
+	float: left;
 	margin-top: 70px;
 	margin-left: 200px;
 	margin-right: 50px;
@@ -306,25 +264,7 @@ hr {
 	margin-top: 80px;
 }
 
-.animation {
-	position: relative;
-	-webkit-animation-name: animation;
-	-webkit-animation-duration: 1s;
-	animation-name: animation;
-	animation-duration: 1s
-}
-
 .jump {
 	font-size: 20px;
 	line-height: 5px;
-}
-
-@-webkit-keyframes animation {
-	from { bottom:-100px; opacity:0 } 
-	to { bottom:0px; opacity:1 }
-}
-
-@keyframes animation { 
-	from{ bottom:-100px; opacity:0 } 
-	to{ bottom:0; opacity:1 }
 }
