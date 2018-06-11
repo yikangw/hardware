@@ -1,0 +1,330 @@
+@font-face
+{
+	font-family: 'Autobus';
+	src: url('autobus.ttf') format('TrueType'),
+	url('autobus.svg') format('svg');
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: orange;
+	text-align: center;
+	position: relative;
+	box-shadow: 0px 15px 50px black;
+}
+
+li 
+{
+    float: center;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+li a:hover 
+{
+    background-color: darkorange;
+    color: white;
+}
+
+li a {
+	display: block;
+    color: white;
+    padding: 8px 16px;
+	text-align: center;
+    text-decoration: none;
+}
+
+
+a
+{
+	color: gray;
+	text-decoration:  none;
+}
+
+a:hover   
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: darkorange;
+} 
+
+body 
+{
+	background: URL(bggray.png); 
+	background-repeat: repeat;
+	color: white;
+	text-align: center;
+	font-family: 'Autobus', sans-serif;
+	font-size: 23px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+h1
+{
+	color: #e6e6e6;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+h2
+{
+	color: limegreen;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: lightgray; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: orange; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+   	background: darkorange; 
+}
+
+.button
+{
+	background-color: orange;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px 32px;
+	text-align: center;
+	margin-right: 290px;
+	display: inline-block;
+	font-size: 26px;
+	font-family: 'Autobus', sans-serif;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	box-shadow: 3px 3px 20px black;
+}
+
+.button:hover
+{
+	font-weight: bold;
+	background-color: #ffc967;
+	color: white;
+}
+
+.button:active 
+{
+  	transform: translateY(4px);
+
+}
+
+.button2
+{
+	background-color: orange;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px 32px;
+	text-align: center;
+	margin-left: 210px;
+	display: inline-block;
+	font-size: 26px;
+	font-family: 'Autobus', sans-serif;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	box-shadow: 3px 3px 20px black;
+}
+
+.button2:hover
+{
+	font-weight: bold;
+	background-color: #ffc967;
+	color: white;
+}
+
+.button2:active 
+{
+  	transform: translateY(4px);
+
+}
+
+.button3
+{
+	background-color: orange;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 26px;
+	font-family: 'Autobus', sans-serif;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	box-shadow: 3px 3px 20px black;
+}
+
+.button3:hover
+{
+	font-weight: bold;
+	background-color: #ffc967;
+	color: white;
+}
+
+.button3:active 
+{
+  	transform: translateY(4px);
+
+}
+
+.logo
+{
+	margin: -8px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    margin: 40px;
+	padding: 0;
+}
+	
+.par1
+{
+	background: URL(bg2.png);
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+.header
+{
+	background: URL(bg.jpg);
+	color: white;
+}
+
+.h
+{
+	color: #345177;
+}
+
+.hometext
+{
+	color: white;
+}
+
+.img {
+	margin-left: 200px;
+	margin-right: 70px;
+	margin-bottom: 30px;
+	display: inline;
+	box-shadow: 2px 2px 30px black;
+}
+
+.img2 {
+	margin-top: 30px;
+	margin-right: 300px;
+	margin-left: 70px;
+	display: inline;
+	box-shadow: 2px 2px 30px black;
+}
+
+.img3 {
+	display: inline;
+	box-shadow: 2px 2px 30px black;
+}
+
+.imghr {
+	margin-top: 100px;
+}
+
+.imgtext {
+	margin-right: 300px;
+	margin-top: 100px;
+}
+
+.imgtext2 {
+	margin-left: 200px;
+	margin-top: 130px;
+}
+
+.imgtext3 {
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.label {
+	font-style: italic;
+	font-size: 20px;
+}
+.cr {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.parts {
+	margin-left: 200px;
+	margin-right: 50px;
+	box-shadow: 2px 2px 30px black;
+}
+
+.parts2 {
+	margin-top: 70px;
+	margin-left: 200px;
+	margin-right: 50px;
+	box-shadow: 2px 2px 30px black;
+}
+
+.ptext {
+	margin-right: 300px;
+}
+
+.ptext2 {
+	margin-right: 300px;
+	margin-left: 500px;
+}
+
+.pheader {
+	margin-right: 300px;
+	margin-top: 60px;
+	font-size: 40px;
+}
+
+.phr {
+	margin-top: 80px;
+}
+
+.animation {
+	position: relative;
+	-webkit-animation-name: animation;
+	-webkit-animation-duration: 1s;
+	animation-name: animation;
+	animation-duration: 1s
+}
+
+.jump {
+	font-size: 20px;
+	line-height: 5px;
+}
+
+@-webkit-keyframes animation {
+	from { bottom:-100px; opacity:0 } 
+	to { bottom:0px; opacity:1 }
+}
+
+@keyframes animation { 
+	from{ bottom:-100px; opacity:0 } 
+	to{ bottom:0; opacity:1 }
+}
